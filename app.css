@@ -1,0 +1,28 @@
+img {
+    position: static;
+    top: 200px;
+    margin: calc(10%/6);
+    width: 30%;
+}
+
+nav {
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Oleo Script, cursive,  Roboto, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width:30%;
+    margin-left: calc(10%/6);
+    padding: 10px;
+   
+}
+
+img:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em blueviolet;
+    cursor: pointer;
+}
+
+main {
+    background-color: beige;
+    background-size: cover;
+}
